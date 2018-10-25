@@ -1,0 +1,10 @@
+server:
+  port: 8082
+eureka:
+  instance:
+    hostname: ribbon-consumer
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://registry2:8088/eureka/
+
