@@ -20,6 +20,13 @@
             <module>server</module>
             <module>ribbon-consumer</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.16</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
